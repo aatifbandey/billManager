@@ -1,0 +1,111 @@
+.headerMainPage{
+    background: #8387b4 none repeat scroll 0 0;
+    height: 16.69vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        order: 1;
+        margin-left: 4.5em;
+        padding-top:1em;
+        padding-bottom:1em;
+        h1{
+            color : white;
+        }
+         
+    }
+    .header-actions {
+        order: 2;
+       
+    }
+}
+.copyright{
+    position: fixed;
+    bottom: 0.5%;
+    right: 1.5%;
+    font-weight: unset;
+    font-size: 2.2rem;
+    color: #1a252d;
+}
+.bodyContent{
+    
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: stretch;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: start;
+    height: 83.2vh;
+    width: 100%;
+    padding: 0 0.8vh;
+  
+.bodyMainPage{
+          align-content: stretch;
+        align-items: flex-start;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row nowrap;
+        //flex-grow: 1;
+        //flex-shrink: 1;
+        height: 100%;
+        width: 100%;
+        //justify-content: center;
+        order: 1;
+        position: relative;
+    
+    .userFormMainPage{
+        width: 70%;
+        -webkit-order: 0;
+        -ms-flex-order: 0;
+        order: 0;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        align-self: center;
+        margin-left: 6em;
+        label{
+            margin-top: 1.5vh;
+            color: #000;
+            font-size: 2.3rem;
+            font-weight: unset;
+        }
+        input[type="text"], input[type="password"]{
+            width: 50%;
+            //padding: 1.94% 4%;
+            //color: #bfbfbf;
+            //box-shadow: 3px 4px 6px #ccc;
+            height: 100%;
+            //margin: 0.5vh 0;
+            box-shadow:0 4px 5px 0px @input-box-shadow;// 2px 4px @input-box-shadow;
+            font-size: 2.3rem;
+            font-weight: unset;
+            border-radius: unset;
+            border:1px solid @input-border;
+            background-color:#fff;
+        }
+        .form-control:focus {
+            border-color:@input-border;
+            outline:0;
+        }
+
+        .allButton{
+            background: #4caf50 none repeat scroll 0 0;
+            color: #fff;
+            font-size: 2.8rem;
+            //height: 5vh;
+            padding: 1% 0;
+            margin: 2% 0% 0% 1%;
+            width: 20%;
+            border-radius: initial;
+        }
+        .editButton{
+            font-size: 0.9em !important;
+            width: 65% !important;
+        }
+    }
+
+}
+
+}
