@@ -17,7 +17,6 @@
   ],
   "author": "Aatif Bandey",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/gorcode/butlerui#readme",
   "devDependencies": {
     "bootstrap": "^3.3.6",
     "gulp-less": "^3.0.3",
